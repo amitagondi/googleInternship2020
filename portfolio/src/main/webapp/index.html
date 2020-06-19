@@ -1,3 +1,16 @@
+<!-- 
+    This starter project is designed to make an online travel album of the countries
+    I've visited over the course of my lifetime.
+    The main home file here, index.html, has three features to it:
+        -A typewriter effect to act as the introduction to the website
+        -Two image arrows to indicate where the user can choose to go next 
+        -Two Bootstrap buttons where a user can either choose between going to 
+        responsive map, or going to a descending ordered timeline of my visits.
+
+        Supporting files:
+            style.css
+            script.js
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,29 +22,21 @@
 </head>
 <body>
      <div class="centered"> 
-         <div class="w3-container w3-center w3-animate-opacity">
           <a id="but1" href="map.html" class="hidden">
      <button type="button" class="btn btn-dark">Where I've been on the map</button>
  </a> 
-        <br>
-        <br>
-                 <img id="leftarrow" class="hidden" src="uparrow.png" width="15%" height="15%">
-                 <br>
-                 <br>
-                 <br>
-         </div>
-    <h1>Hello! My name is Amita Gondi</h1>
+        <br><br>
+
+                 <img id="upArrow" class="hidden" src="uparrow.png" width="15%" height="15%">
+                 <br><br><br>
+    <h1> </h1>
         <script src="script.js"></script>
-        <div class="w3-container w3-center w3-animate-opacity">
-              <br>
-                 <br>
-        <img id="rightarrow" class="hidden" src="downarrow.jpg.png" width="15%" height="15%">
-                <br>
-        <br>
+              <br> <br>
+        <img id="downArrow" class="hidden" src="downarrow.jpg.png" width="15%" height="15%">
+                <br> <br>
  <a id="but2" href="timeline.html" class="hidden">
      <button type="button" class="btn btn-dark">When I've been on the map</button>
  </a>
-        </div>
 </div>
 
 </body>

@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 .container {
   width: 80%;
@@ -39,6 +40,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  font-family: 'Montserrat', sans-serif;
 }
 
 li {
@@ -79,7 +81,7 @@ p{
   opacity: 0;
 }
 #IN, #CA, #CO, #CN, #MY, #NP, #TH, #AE, #US{
-    fill: #BC243C;
+    fill: black
 }
 .text {
   background-color: #4CAF50;
