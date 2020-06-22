@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded',function(event){
     }
   }
   // start a typewriter animation for a text in the dataText array
-   function StartTextAnimation(i) {
+   function startTextAnimation(i) {
      if (typeof dataText[i] == 'undefined'){
         toggleButton()
      }
