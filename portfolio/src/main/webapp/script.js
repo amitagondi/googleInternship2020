@@ -7,7 +7,11 @@ document.addEventListener('DOMContentLoaded',function(event){
     document.getElementById("but2").className = 'btn btn-dark btn-lg show'; 
 }
   // array with texts to type in typewriter
-  var dataText = [ "Hello! My name is Amita Gondi.", "The whole covid-19 situation sucks. A lot.", "But that gave me an opportunity to blow the dust off of the old travel albums. Metaphorically.", "Thus, presenting", "Amita's Travel Album Circa 2001"];
+  var dataText = [ "Hello! My name is Amita Gondi.", 
+                  "The whole covid-19 situation sucks. A lot.", 
+                  "But that gave me an opportunity to blow the dust off of the old travel albums. Metaphorically.", 
+                  "Thus, presenting", 
+                  "Amita's Travel Album Circa 2001"];
   
   // type one text in the typwriter
   // will keep calling itself until text from array is done
