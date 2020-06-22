@@ -1,8 +1,6 @@
 # Google Student Training in Engineering Program
 This repo contains Amita Gondi's portfolio and STEP projects and we're in our first ever Google Tutorial!!!
 
-Update: Added Starter Project #1 Code - in completion. If you don't have time to sieve through the code, check out a screen recorded grab of the website via https://youtu.be/7ev__6LjaPU
-
 This repo contains the projects you'll work on for the first half of STEP.
 This work is based on the [Google Software Product Sprint](https://g.co/softwareproductsprint) program.
 
