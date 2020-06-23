@@ -3,6 +3,7 @@ This CSS document includes a toggle feature using 'hidden' and 'show' classes
 where we can invoke a div to appear when an action is completed. This feature
 is used in conjuncion with script.js.
 */
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
   background-color: white;

@@ -58,6 +58,7 @@ function addQuoteToDom(quote) {
 function getRandomQuoteUsingArrowFunctions() {
   fetch('/random-quote').then(response => response.text()).then((quote) => {
     document.getElementById('quote-container').innerText = quote;
+    
   });
 }
 
@@ -70,4 +71,13 @@ async function getRandomQuoteUsingAsyncAwait() {
   const response = await fetch('/random-quote');
   const quote = await response.text();
   document.getElementById('quote-container').innerText = quote;
+}
+
+/** 
+Modify script.js use fetch() to request content from the server and add it to the page.
+*/
+function getMessage() {
+  fetch('/data').then(response => response.text()).then((quote) => {
+    document.getElementById('quote-container').innerText = quote;
+});
 }
