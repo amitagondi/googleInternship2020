@@ -19,7 +19,7 @@ function getRandomQuote() {
   console.log('Fetching a random quote.');
 
   // The fetch() function returns a Promise because the request is asynchronous.
-  const responsePromise = fetch('/random-quote');
+  const responsePromise = fetch('/data');
 
   // When the request is complete, pass the response into handleResponse().
   responsePromise.then(handleResponse);
@@ -73,11 +73,3 @@ async function getRandomQuoteUsingAsyncAwait() {
   document.getElementById('quote-container').innerText = quote;
 }
 
-/** 
-Modify script.js use fetch() to request content from the server and add it to the page.
-*/
-function getMessage() {
-  fetch('/data').then(response => response.text()).then((quote) => {
-    document.getElementById('quote-container').innerText = quote;
-});
-}
