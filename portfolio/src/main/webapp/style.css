@@ -1,9 +1,30 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
-}
+/*
+This CSS document includes a toggle feature using 'hidden' and 'show' classes
+where we can invoke a div to appear when an action is completed. This feature
+is used in conjuncion with script.js.
+*/
 
-#greeting-container {
-  margin-top: 20px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+ .hidden {
+    display: none;
+}
+.show {
+   display: inline;
+}
+.centered {
+position: fixed;
+text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
